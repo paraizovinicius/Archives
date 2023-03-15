@@ -42,3 +42,21 @@ Este código vai ordenar um arquivo e gerar esse novo arquivo ordenado.
       comando: gcc -o ordena1 ordena1.c
       comando: ./ordena1 [arquivo]
       ex: ./ordena1 cep.dat
+
+# Quicksort
+Estrutura de dados básica do quicksort implementado em C
+
+## Como os usuários podem utilizá-lo
+      No terminal, esteja na pasta onde está o arquivo
+      comando: gcc -o quicksort quicksort.c
+      comando: ./quicksort 
+
+# Concatenar
+
+Este código vai concatenar dois arquivos e gerar um terceiro concatenado
+
+## Como os usuários podem utilizá-lo
+      No terminal, esteja na pasta onde está o concatenar.c e também os arquivos a serem concatenados. De preferência, faça dois arquivos texto (de final .txt).
+      comando: gcc -o concatenar concatenar.c
+      comando: ./concatenar
+
