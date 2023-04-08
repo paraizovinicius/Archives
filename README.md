@@ -71,7 +71,7 @@ HashMap é uma estrutura de dados que armazena e recupera elementos por meio de 
 
 
 ### Como os usuários podem utilizá-lo
-      No terminal, esteja na pasta onde está o concatenar.c e também os arquivos a serem concatenados. Você precisará [baixar](https://www.dropbox.com/sh/8i46wy3q0rmasu7/AAAr9PoWwJvRbsfpiafDurr1a/hash/data?dl=0&subfolder_nav_tracking=1)  o cep.dat e cep-hash.dat
+      No terminal, esteja na pasta onde está o concatenar.c e também os arquivos a serem concatenados. Você precisará baixar o cep.dat e cep-hash.dat
       comando: gcc -o CriaIndice CriaIndice.c
       comando: ./CriaIndice
 
