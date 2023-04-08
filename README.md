@@ -1,7 +1,7 @@
 # Arquivos
 Matéria de Organização de Estrutura de Arquivos do curso Bacharel Ciência da Computação do CEFET/RJ. Códigos feitos por Vinicius Paraizo. 
 
-Você pode pegar as bases de dados teste em (dropbox link)[https://www.dropbox.com/sh/8i46wy3q0rmasu7/AADIUy2iVsoWWwcbnxbPGrzya?dl=0]
+Você pode pegar as bases de dados teste em [dropbox link](https://www.dropbox.com/sh/8i46wy3q0rmasu7/AADIUy2iVsoWWwcbnxbPGrzya?dl=0)
 
 Lá, você vai encontrar o cep.dat, cepordenado.dat e cep-hash.dat.
 
@@ -71,7 +71,7 @@ HashMap é uma estrutura de dados que armazena e recupera elementos por meio de 
 
 
 ### Como os usuários podem utilizá-lo
-      No terminal, esteja na pasta onde está o concatenar.c e também os arquivos a serem concatenados. Você precisará (baixar)[https://www.dropbox.com/sh/8i46wy3q0rmasu7/AAAr9PoWwJvRbsfpiafDurr1a/hash/data?dl=0&subfolder_nav_tracking=1]  o cep.dat e cep-hash.dat
+      No terminal, esteja na pasta onde está o concatenar.c e também os arquivos a serem concatenados. Você precisará [baixar](https://www.dropbox.com/sh/8i46wy3q0rmasu7/AAAr9PoWwJvRbsfpiafDurr1a/hash/data?dl=0&subfolder_nav_tracking=1)  o cep.dat e cep-hash.dat
       comando: gcc -o concatenar concatenar.c
       comando: ./concatenar
 
