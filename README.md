@@ -5,7 +5,7 @@ Você pode pegar as bases de dados teste em [dropbox link](https://www.dropbox.c
 
 Lá, você vai encontrar o cep.dat, cepordenado.dat e cep-hash.dat.
 
-# MergeSort
+## MergeSort
 
 Este código vai realizar a ordenação por meio do merge sort do arquivo "cep.dat".
 
@@ -15,7 +15,7 @@ Este código vai realizar a ordenação por meio do merge sort do arquivo "cep.d
       Com o código mergesort compilado, agora você pode realizar o teste no código. Para isso digite no terminal "./mergesort".
 
 
-# Buscabinaria
+## Buscabinaria
 
 Este código vai realizar uma busca binária à partir do arquivo cep_ordenado.dat
     
@@ -26,7 +26,7 @@ Este código vai realizar uma busca binária à partir do arquivo cep_ordenado.d
       Para isso digite no terminal "./buscabinaria [CEP desejado]"
 
 
-# Copia1
+## Copia1
 
 Este código vai copiar um arquivo e gerar uma cópia. 
 
@@ -37,7 +37,7 @@ Este código vai copiar um arquivo e gerar uma cópia.
       ex: ./copia1 teste.jpg imagem.jpg
 
 
-# Ordena1
+## Ordena1
 
 Este código vai ordenar um arquivo e gerar esse novo arquivo ordenado. 
 
@@ -47,7 +47,7 @@ Este código vai ordenar um arquivo e gerar esse novo arquivo ordenado.
       comando: ./ordena1 [arquivo]
       ex: ./ordena1 cep.dat
 
-# Quicksort
+## Quicksort
 Estrutura de dados básica do quicksort implementado em C
 
 ### Como os usuários podem utilizá-lo
@@ -55,7 +55,7 @@ Estrutura de dados básica do quicksort implementado em C
       comando: gcc -o quicksort quicksort.c
       comando: ./quicksort 
 
-# Concatenar
+## Concatenar
 
 Este código vai concatenar dois arquivos e gerar um terceiro concatenado
 
@@ -65,7 +65,7 @@ Este código vai concatenar dois arquivos e gerar um terceiro concatenado
       comando: ./concatenar
       
       
-# HashMap
+## HashMap
 
 HashMap é uma estrutura de dados que armazena e recupera elementos por meio de chaves. O acesso aos elementos é feito por meio de uma função hash, que mapeia a chave a um valor correspondente. Isso permite a busca rápida de elementos sem percorrer toda a estrutura de dados. O HashMap é amplamente utilizado em linguagens de programação para implementar dicionários, tabelas de símbolos e outras estruturas de dados que requerem acesso rápido aos elementos por meio de chaves.
 
