@@ -12,7 +12,7 @@ typedef struct no *noPtr;
 
 void push(noPtr *);
 void pop(noPtr *);
-void list(noPtr);
+void list(noPtr *);
 bool listaVazia(noPtr);
 
 main() // FIFO mode
@@ -38,7 +38,7 @@ main() // FIFO mode
             pop(&topo);
             break;
         case 3: // list
-            list(topo);
+            list(&topo);
             break;
         }
     } while (input != 0);
@@ -48,7 +48,7 @@ main() // FIFO mode
 
 void push(noPtr *i)
 {
-    noPtr aux, p = new no;
+    noPtr aux, auxant, p = new no;
     cout << endl
          << "Insert the new value:" << endl;
     cin >> p->info;
@@ -57,28 +57,31 @@ void push(noPtr *i)
 
     if (listaVazia(*i))
     {
-        *i = p;
+        *i = p; // primeiro elemento
     }
     else
     {
         aux = *i;
-        while (aux->prox != NULL && p->info < aux->info)
-        {
+        while (aux->prox != NULL && p->info > aux->info)
+        {   
             aux = aux->prox;
         }
-        if (aux->prox == NULL)// será o ultimo elemento
+        if (p->info < aux->info) // ficará no meio
+        {
+            auxant = aux->ant;
+            cout << "\naux: " << aux->info << "\nauxant: " << auxant->info;
+            p->prox = aux;
+            p->ant = auxant;
+            auxant->prox = p;
+            aux->ant = p;
+        }
+        else // último elemento
         {
             p->ant = aux;
             aux->prox = p;
-        } 
-        else // encaixaremos ele no meio
-        {
-            p->prox = aux;
-            p->ant = aux->ant;
-            aux->ant->prox = p;
-            aux->ant = p;
         }
     }
+    
 }
 
 void pop(noPtr *i)
@@ -107,19 +110,25 @@ void pop(noPtr *i)
     }
 }
 
-void list(noPtr p) // Listing in descending order
+void list(noPtr *i)
 {
-    if (p == NULL)
+    if (listaVazia(*i))
+    {
         cout << endl
              << "Empty list!" << endl;
+    }
     else
     {
-        noPtr a = p;
-        while (a != NULL)
+        noPtr p = *i;
+        while (p->prox != NULL)
         {
-            a = a->prox;
+            p = p->prox;
         }
-
+        while (p->ant != NULL){
+            cout << "| " << p->info << " |";
+            p = p->ant;
+        }cout << "| " << p->info << " |";
+    
         cout << endl;
     }
 }
