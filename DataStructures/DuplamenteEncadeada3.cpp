@@ -16,8 +16,8 @@ void list(noPtr *);
 bool listaVazia(noPtr);
 
 main() // FIFO mode
-{
-
+{      // Adding items in crescent Order  
+        // Listing them in descending Order
     int input;
     noPtr topo = NULL;
     do
@@ -26,7 +26,7 @@ main() // FIFO mode
              << "Select the following: " << endl
              << "1 for enqueue" << endl
              << "2 for dequeue" << endl
-             << "3 to list" << endl
+             << "3 to list" << endl 
              << "0 to end" << endl;
         cin >> input;
         switch (input)
