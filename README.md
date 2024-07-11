@@ -76,3 +76,18 @@ HashMap é uma estrutura de dados que armazena e recupera elementos por meio de 
       comando: ./CriaIndice
 
 
+
+
+## Data Structures
+
+Nesta pasta, você poderá encontrar os códigos feitos durante a matéria de EDA - Estrutura de Dados. Lá, existem os códigos de:
+- Lista Encadeada Ordenada
+- Lista Duplamente Encadeada (Para tipo First in First Out e Last In First Out)
+- Lista Circular
+- Pilha
+
+### Como os usuários podem utilizá-lo
+      No terminal, esteja na pasta onde está localizado o código.
+      comando: cd {pasta}
+      comando: g++ -o executavel codigo.cpp
+      comando: ./executavel
